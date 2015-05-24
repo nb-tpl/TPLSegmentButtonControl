@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B34A8A11AB12D720064EA0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B34A8A01AB12D720064EA0E /* Foundation.framework */; };
+		3B34A8A31AB12D720064EA0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B34A8A21AB12D720064EA0E /* CoreGraphics.framework */; };
+		3B34A8A51AB12D720064EA0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B34A8A41AB12D720064EA0E /* UIKit.framework */; };
+		3B34A8AB1AB12D720064EA0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B34A8A91AB12D720064EA0E /* InfoPlist.strings */; };
+		3B34A8AD1AB12D720064EA0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34A8AC1AB12D720064EA0E /* main.m */; };
+		3B34A8B11AB12D720064EA0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34A8B01AB12D720064EA0E /* AppDelegate.m */; };
+		3B34A8B41AB12D720064EA0E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B34A8B21AB12D720064EA0E /* Main_iPhone.storyboard */; };
+		3B34A8B71AB12D720064EA0E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B34A8B51AB12D720064EA0E /* Main_iPad.storyboard */; };
+		3B34A8BA1AB12D720064EA0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34A8B91AB12D720064EA0E /* ViewController.m */; };
+		3B34A8BC1AB12D720064EA0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B34A8BB1AB12D720064EA0E /* Images.xcassets */; };
+		3B34A8C31AB12D720064EA0E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B34A8C21AB12D720064EA0E /* XCTest.framework */; };
+		3B34A8C41AB12D720064EA0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B34A8A01AB12D720064EA0E /* Foundation.framework */; };
+		3B34A8C51AB12D720064EA0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B34A8A41AB12D720064EA0E /* UIKit.framework */; };
+		3B34A8CD1AB12D720064EA0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B34A8CB1AB12D720064EA0E /* InfoPlist.strings */; };
+		3B34A8CF1AB12D720064EA0E /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34A8CE1AB12D720064EA0E /* ______Tests.m */; };
+		3B34A8DB1AB12FCC0064EA0E /* TPLSegmentButtonControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34A8DA1AB12FCC0064EA0E /* TPLSegmentButtonControl.m */; };
+		3B34A8DE1AB131F00064EA0E /* SegmentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34A8DD1AB131F00064EA0E /* SegmentButton.m */; };
+		3B34A8E21AB1693B0064EA0E /* TPLSegmentSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B34A8E11AB1693B0064EA0E /* TPLSegmentSignView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B34A8C61AB12D720064EA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B34A8951AB12D720064EA0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B34A89C1AB12D720064EA0E;
+			remoteInfo = "污染举报封装";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B34A89D1AB12D720064EA0E /* 污染举报封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "污染举报封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B34A8A01AB12D720064EA0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B34A8A21AB12D720064EA0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B34A8A41AB12D720064EA0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B34A8A81AB12D720064EA0E /* 污染举报封装-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "污染举报封装-Info.plist"; sourceTree = "<group>"; };
+		3B34A8AA1AB12D720064EA0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B34A8AC1AB12D720064EA0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B34A8AE1AB12D720064EA0E /* 污染举报封装-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "污染举报封装-Prefix.pch"; sourceTree = "<group>"; };
+		3B34A8AF1AB12D720064EA0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B34A8B01AB12D720064EA0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B34A8B31AB12D720064EA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3B34A8B61AB12D720064EA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3B34A8B81AB12D720064EA0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B34A8B91AB12D720064EA0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B34A8BB1AB12D720064EA0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B34A8C11AB12D720064EA0E /* 污染举报封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "污染举报封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B34A8C21AB12D720064EA0E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B34A8CA1AB12D720064EA0E /* 污染举报封装Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "污染举报封装Tests-Info.plist"; sourceTree = "<group>"; };
+		3B34A8CC1AB12D720064EA0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B34A8CE1AB12D720064EA0E /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		3B34A8D91AB12FCC0064EA0E /* TPLSegmentButtonControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLSegmentButtonControl.h; sourceTree = "<group>"; };
+		3B34A8DA1AB12FCC0064EA0E /* TPLSegmentButtonControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLSegmentButtonControl.m; sourceTree = "<group>"; };
+		3B34A8DC1AB131F00064EA0E /* SegmentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentButton.h; sourceTree = "<group>"; };
+		3B34A8DD1AB131F00064EA0E /* SegmentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentButton.m; sourceTree = "<group>"; };
+		3B34A8E01AB1693B0064EA0E /* TPLSegmentSignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLSegmentSignView.h; sourceTree = "<group>"; };
+		3B34A8E11AB1693B0064EA0E /* TPLSegmentSignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLSegmentSignView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B34A89A1AB12D720064EA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B34A8A31AB12D720064EA0E /* CoreGraphics.framework in Frameworks */,
+				3B34A8A51AB12D720064EA0E /* UIKit.framework in Frameworks */,
+				3B34A8A11AB12D720064EA0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B34A8BE1AB12D720064EA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B34A8C31AB12D720064EA0E /* XCTest.framework in Frameworks */,
+				3B34A8C51AB12D720064EA0E /* UIKit.framework in Frameworks */,
+				3B34A8C41AB12D720064EA0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B34A8941AB12D720064EA0E = {
+			isa = PBXGroup;
+			children = (
+				3B34A8A61AB12D720064EA0E /* 污染举报封装 */,
+				3B34A8C81AB12D720064EA0E /* 污染举报封装Tests */,
+				3B34A89F1AB12D720064EA0E /* Frameworks */,
+				3B34A89E1AB12D720064EA0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B34A89E1AB12D720064EA0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B34A89D1AB12D720064EA0E /* 污染举报封装.app */,
+				3B34A8C11AB12D720064EA0E /* 污染举报封装Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B34A89F1AB12D720064EA0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B34A8A01AB12D720064EA0E /* Foundation.framework */,
+				3B34A8A21AB12D720064EA0E /* CoreGraphics.framework */,
+				3B34A8A41AB12D720064EA0E /* UIKit.framework */,
+				3B34A8C21AB12D720064EA0E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B34A8A61AB12D720064EA0E /* 污染举报封装 */ = {
+			isa = PBXGroup;
+			children = (
+				3B34A8DF1AB162F50064EA0E /* 分段标记 */,
+				3B34A8D81AB12E5A0064EA0E /* 分段按钮 */,
+				3B34A8AF1AB12D720064EA0E /* AppDelegate.h */,
+				3B34A8B01AB12D720064EA0E /* AppDelegate.m */,
+				3B34A8B21AB12D720064EA0E /* Main_iPhone.storyboard */,
+				3B34A8B51AB12D720064EA0E /* Main_iPad.storyboard */,
+				3B34A8B81AB12D720064EA0E /* ViewController.h */,
+				3B34A8B91AB12D720064EA0E /* ViewController.m */,
+				3B34A8BB1AB12D720064EA0E /* Images.xcassets */,
+				3B34A8A71AB12D720064EA0E /* Supporting Files */,
+				3B34A8DC1AB131F00064EA0E /* SegmentButton.h */,
+				3B34A8DD1AB131F00064EA0E /* SegmentButton.m */,
+			);
+			path = "污染举报封装";
+			sourceTree = "<group>";
+		};
+		3B34A8A71AB12D720064EA0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B34A8A81AB12D720064EA0E /* 污染举报封装-Info.plist */,
+				3B34A8A91AB12D720064EA0E /* InfoPlist.strings */,
+				3B34A8AC1AB12D720064EA0E /* main.m */,
+				3B34A8AE1AB12D720064EA0E /* 污染举报封装-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B34A8C81AB12D720064EA0E /* 污染举报封装Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B34A8CE1AB12D720064EA0E /* ______Tests.m */,
+				3B34A8C91AB12D720064EA0E /* Supporting Files */,
+			);
+			path = "污染举报封装Tests";
+			sourceTree = "<group>";
+		};
+		3B34A8C91AB12D720064EA0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B34A8CA1AB12D720064EA0E /* 污染举报封装Tests-Info.plist */,
+				3B34A8CB1AB12D720064EA0E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B34A8D81AB12E5A0064EA0E /* 分段按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				3B34A8D91AB12FCC0064EA0E /* TPLSegmentButtonControl.h */,
+				3B34A8DA1AB12FCC0064EA0E /* TPLSegmentButtonControl.m */,
+			);
+			path = "分段按钮";
+			sourceTree = "<group>";
+		};
+		3B34A8DF1AB162F50064EA0E /* 分段标记 */ = {
+			isa = PBXGroup;
+			children = (
+				3B34A8E01AB1693B0064EA0E /* TPLSegmentSignView.h */,
+				3B34A8E11AB1693B0064EA0E /* TPLSegmentSignView.m */,
+			);
+			path = "分段标记";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B34A89C1AB12D720064EA0E /* 污染举报封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B34A8D21AB12D720064EA0E /* Build configuration list for PBXNativeTarget "污染举报封装" */;
+			buildPhases = (
+				3B34A8991AB12D720064EA0E /* Sources */,
+				3B34A89A1AB12D720064EA0E /* Frameworks */,
+				3B34A89B1AB12D720064EA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "污染举报封装";
+			productName = "污染举报封装";
+			productReference = 3B34A89D1AB12D720064EA0E /* 污染举报封装.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B34A8C01AB12D720064EA0E /* 污染举报封装Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B34A8D51AB12D720064EA0E /* Build configuration list for PBXNativeTarget "污染举报封装Tests" */;
+			buildPhases = (
+				3B34A8BD1AB12D720064EA0E /* Sources */,
+				3B34A8BE1AB12D720064EA0E /* Frameworks */,
+				3B34A8BF1AB12D720064EA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B34A8C71AB12D720064EA0E /* PBXTargetDependency */,
+			);
+			name = "污染举报封装Tests";
+			productName = "污染举报封装Tests";
+			productReference = 3B34A8C11AB12D720064EA0E /* 污染举报封装Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B34A8951AB12D720064EA0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "谭鄱仑";
+				TargetAttributes = {
+					3B34A89C1AB12D720064EA0E = {
+						DevelopmentTeam = FN87A34J65;
+					};
+					3B34A8C01AB12D720064EA0E = {
+						TestTargetID = 3B34A89C1AB12D720064EA0E;
+					};
+				};
+			};
+			buildConfigurationList = 3B34A8981AB12D720064EA0E /* Build configuration list for PBXProject "污染举报封装" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B34A8941AB12D720064EA0E;
+			productRefGroup = 3B34A89E1AB12D720064EA0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B34A89C1AB12D720064EA0E /* 污染举报封装 */,
+				3B34A8C01AB12D720064EA0E /* 污染举报封装Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B34A89B1AB12D720064EA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B34A8B71AB12D720064EA0E /* Main_iPad.storyboard in Resources */,
+				3B34A8BC1AB12D720064EA0E /* Images.xcassets in Resources */,
+				3B34A8B41AB12D720064EA0E /* Main_iPhone.storyboard in Resources */,
+				3B34A8AB1AB12D720064EA0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B34A8BF1AB12D720064EA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B34A8CD1AB12D720064EA0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B34A8991AB12D720064EA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B34A8DE1AB131F00064EA0E /* SegmentButton.m in Sources */,
+				3B34A8DB1AB12FCC0064EA0E /* TPLSegmentButtonControl.m in Sources */,
+				3B34A8BA1AB12D720064EA0E /* ViewController.m in Sources */,
+				3B34A8B11AB12D720064EA0E /* AppDelegate.m in Sources */,
+				3B34A8E21AB1693B0064EA0E /* TPLSegmentSignView.m in Sources */,
+				3B34A8AD1AB12D720064EA0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B34A8BD1AB12D720064EA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B34A8CF1AB12D720064EA0E /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B34A8C71AB12D720064EA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B34A89C1AB12D720064EA0E /* 污染举报封装 */;
+			targetProxy = 3B34A8C61AB12D720064EA0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B34A8A91AB12D720064EA0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B34A8AA1AB12D720064EA0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B34A8B21AB12D720064EA0E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B34A8B31AB12D720064EA0E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3B34A8B51AB12D720064EA0E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B34A8B61AB12D720064EA0E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3B34A8CB1AB12D720064EA0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B34A8CC1AB12D720064EA0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B34A8D01AB12D720064EA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B34A8D11AB12D720064EA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B34A8D31AB12D720064EA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "污染举报封装/污染举报封装-Prefix.pch";
+				INFOPLIST_FILE = "污染举报封装/污染举报封装-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B34A8D41AB12D720064EA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "污染举报封装/污染举报封装-Prefix.pch";
+				INFOPLIST_FILE = "污染举报封装/污染举报封装-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B34A8D61AB12D720064EA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/污染举报封装.app/污染举报封装";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "污染举报封装/污染举报封装-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "污染举报封装Tests/污染举报封装Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3B34A8D71AB12D720064EA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/污染举报封装.app/污染举报封装";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "污染举报封装/污染举报封装-Prefix.pch";
+				INFOPLIST_FILE = "污染举报封装Tests/污染举报封装Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B34A8981AB12D720064EA0E /* Build configuration list for PBXProject "污染举报封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B34A8D01AB12D720064EA0E /* Debug */,
+				3B34A8D11AB12D720064EA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B34A8D21AB12D720064EA0E /* Build configuration list for PBXNativeTarget "污染举报封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B34A8D31AB12D720064EA0E /* Debug */,
+				3B34A8D41AB12D720064EA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B34A8D51AB12D720064EA0E /* Build configuration list for PBXNativeTarget "污染举报封装Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B34A8D61AB12D720064EA0E /* Debug */,
+				3B34A8D71AB12D720064EA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B34A8951AB12D720064EA0E /* Project object */;
+}
